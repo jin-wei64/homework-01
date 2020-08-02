@@ -1,0 +1,153 @@
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0 0 1em 0;
+	font-size: 100%;
+	line-height: 1.5em;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #3f3f3f;
+}
+
+img {
+	max-width: 100%;
+	height: 150px;
+	margin: 0 0 10px 0;
+}
+
+
+/* Section Inner */
+div.section-inner {
+	max-width: 1100px;
+	padding: 0 25px;
+	margin: 0 auto;
+}
+
+/* Header */
+div.header {
+	background-color: #E9E9E9;
+	padding: 40px 0;
+}
+
+/* Body Content */
+div.body-content {
+	padding: 50px 0;
+	background-color: #FFF;
+}
+
+/* Thirds */
+div.thirds {
+	padding-bottom: 50px;
+}
+
+div.one-third {
+	width: 18.25%;
+	float: left;
+	margin-right: 9%;
+}
+
+div.one-third-last {
+	margin: 0;
+}
+
+/* Main Column */
+div.main {
+	width: 100%;
+	float: left;
+	margin-right: 5%;
+}
+/* Footer */
+div.footer {
+	background-color: #3f3f3f;
+	color: #FFF;
+	padding: 15px 0;
+	text-align: center;
+}
+
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+@media screen and (max-width: 900px) {
+
+    div.one-third {
+        width: 47.5%;
+    }
+
+    div.one-third-second {
+        margin: 0;
+    }
+
+    div.one-third-last {
+        clear: both;
+        float: none;
+        width: auto;
+        padding: 20px 0 0 0;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+	
+	div.mobile-collapse {
+		width: auto;
+		float: none;
+		margin-right: 0;
+	}
+	
+	.hide-mobile {
+		display: none;
+	}
+}
+
+#Video {
+	position: relative;
+}
+#Video .image-wrap img {
+	width: 100%;
+	height: 500px;
+}
+#Video .video-icon {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+#Video .video-icon h3 {
+	font-size: 30px;
+	margin-bottom: 10px;
+	font: 500 26px/115% 'Open Sans', sans-serif;
+	color: rgb(0, 0, 0);
+	margin: 0 0 30px;
+	background-color: aliceblue;
+	
+}
+#Video .video-icon i {
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	transition: all 0.5s;
+}
+#Video .video-icon i:hover {
+	color: #19af83;
+	transition: all 0.5s;
+}
+#Video .video-icon p {
+	font-size: 20px;
+    margin-bottom: 10px;
+	font: 400 16px/115% 'Open Sans', sans-serif;
+	color: rgb(0, 0, 0);
+	margin: 0 0 25px;
+	background-attachment: fixed;
+	background-color: aliceblue;
+}
+
