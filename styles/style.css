@@ -425,6 +425,7 @@ body.menu-active #Header .logo {
 	transform: scale(1);
 }
 #OurWork .filter-box .each-box .each-box-img img {
+	height: 100%;
 	width: 100%;
 	transition: all .2s ease-in;
 }
